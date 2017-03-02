@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Practica2_lista</string>
+
+
+    <string name="op_inserta">Insertar</string>
+    <string name="op_elimina_utlimo">Elimina</string>
+
+    <string name="op_elimina">Eliminar opcion</string>
+    <string name="lblContextTit">Opciones</string>
+</resources>

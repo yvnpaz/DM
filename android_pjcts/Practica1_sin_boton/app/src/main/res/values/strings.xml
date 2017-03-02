@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Practica1 Grupo reducido</string>
+    <string name="lbl1_lado1">Lado 1</string>
+    <string name="lbl2_lado2">Lado 2</string>
+    <string name="lbl_resultado">Resultado</string>
+</resources>
