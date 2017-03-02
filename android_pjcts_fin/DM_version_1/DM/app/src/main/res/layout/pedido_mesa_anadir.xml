@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/img02"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="3dip"
+        android:background="#ffffffff" />
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" android:gravity="center_vertical|center_horizontal">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" android:gravity="center_vertical|center_horizontal">
+            <Button
+                android:id="@+id/anadirBebida"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/anadir_bebida" android:typeface="monospace"/>
+            <Button
+                android:id="@+id/anadirPostre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/anadir_postre" android:typeface="monospace"/>
+            <Button
+                android:id="@+id/anadirPlato"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               android:text="@string/anadir_plato" android:layout_gravity="center_horizontal"
+                android:typeface="monospace"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

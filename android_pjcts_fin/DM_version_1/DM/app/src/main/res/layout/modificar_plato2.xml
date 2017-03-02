@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/myLinearLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/img02"
+    android:orientation="vertical"
+    android:padding="4dp" >
+
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/nombre_plato"
+		android:textSize="16sp"
+		android:textStyle="bold"
+		android:textColor="#ffff8c0d">
+	</TextView>
+	<EditText
+		android:id="@+id/nombrePlato"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textSize="18sp"
+		android:layout_margin="10dp">
+	</EditText>
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/precio"
+		android:textSize="16sp"
+		android:textStyle="bold"
+		android:textColor="#ffff8c0d">
+	</TextView>
+	<EditText
+		android:id="@+id/precioPlato"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textSize="18sp"
+		android:layout_margin="10dp">
+	</EditText>
+	<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:weightSum="1">
+		<TextView
+    android:id="@+id/txtMsg"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textSize="16sp"
+    android:textStyle="bold"
+    android:textColor="#ff994a1d">
+    </TextView>
+		<Spinner
+    android:id="@+id/my_spinner"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" android:layout_weight="0.94">
+    </Spinner>
+		<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="fill_parent"
+				android:layout_height="59dp" android:gravity="center_vertical|center_horizontal"
+				>
+			<Button
+            android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+			android:layout_marginRight="10dp"
+            android:text="@string/guardar"
+            android:textStyle="bold" android:typeface="monospace" android:visibility="visible">
+
+        </Button>
+		</LinearLayout>
+	</LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/myLinearLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/img02"
+    android:padding="4dp" >
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="455dp" android:weightSum="1"
+            android:gravity="center_horizontal">
+        <TextView
+            android:id="@+id/opciones"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="96dp"
+            android:layout_y="20dp"
+            android:text="@string/opciones"
+            android:textColor="#ffff8c0d"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="59dp" android:layout_x="1dp" android:layout_y="455dp"
+            android:gravity="center_vertical|center_horizontal">
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="94dp"
+            android:layout_y="142dp"
+           android:text="@string/mesas"
+            android:textStyle="bold" android:typeface="monospace"/>
+    </LinearLayout>
+
+</AbsoluteLayout>

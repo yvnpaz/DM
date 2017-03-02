@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/myLinearLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/img02"
+    android:orientation="vertical"
+    android:padding="4dp" >
+
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/mesas"
+		android:textSize="16sp"
+		android:textStyle="bold"
+		android:textColor="#ffff8c0d">
+	</TextView>
+	<EditText
+		android:id="@+id/numMesas"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textSize="18sp"
+		android:layout_margin="10dp">
+	</EditText>
+	<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="377dp">
+	</LinearLayout>
+	<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="59dp" android:gravity="center_vertical|center_horizontal">
+		<Button
+            android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="@string/confirmar"
+            android:textStyle="bold" android:typeface="monospace">
+
+        </Button>
+	</LinearLayout>
+
+
+</LinearLayout>

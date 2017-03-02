@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/myLinearLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/img02"
+    android:orientation="vertical"
+    android:padding="4dp" >
+
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/producto"
+		android:textSize="16sp"
+		android:textStyle="bold"
+		android:textColor="#ffff8c0d">
+	</TextView>
+	<TextView
+		android:id="@+id/nombre"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/precio"
+		android:textSize="16sp"
+		android:textStyle="bold"
+		android:textColor="#ffff8c0d">
+	</TextView>
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/cantidad"
+		android:textSize="16sp"
+		android:textStyle="bold"
+		android:textColor="#ffff8c0d">
+	</TextView>
+	<EditText
+		android:id="@+id/Cantidad"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textSize="18sp"
+		android:layout_margin="10dp">
+	</EditText>
+
+
+	<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="fill_parent"
+			android:layout_height="59dp" android:gravity="center_vertical|center_horizontal"
+			android:visibility="visible">
+		<Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_marginRight="10dp"
+        android:text="@string/guardar"
+        android:textStyle="bold" android:typeface="monospace">
+
+    </Button>
+	</LinearLayout>
+
+
+</LinearLayout>
