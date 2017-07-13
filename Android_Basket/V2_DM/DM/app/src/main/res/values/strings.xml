@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Team Sports</string>
+    <string name="creadores">\nRoman - Iago - Yvan</string>
+
+    /*Menus*/
+    <string name="menu_principal">Menú Principal</string>
+    <string name="menu_equipo">Equipo</string>
+    <string name="mi_equipo">+ Mi Equipo</string>
+    <string name="menu_partidos">Partidos</string>
+    <string name="web_info">Web info</string>
+    <string name="web_comment">Comentar Web</string>
+    <string name="menu_entrenamiento">Entrenamiento</string>
+
+    /*Jugador*/
+    <string name="anadir_jugador">Añadir</string>
+    <string name="guardar_jugador">Guardar</string>
+    <string name="gestionar_jugador">Gestionar Jugador</string>
+    <string name="info_jugador">Información Jugador</string>
+    <string name="dorsal">Dorsal</string>
+    <string name="nombre">Nombre</string>
+    <string name="posicion">Posición</string>
+    <string name="edad">Edad</string>
+
+    /*Opciones jugador*/
+    <string name="op_favorito">Favorito</string>
+    <string name="op_lesionado">Lesionado</string>
+    <string name="op_titular">Titular</string>
+
+    /*Partido*/
+    <string name="gestionar_partido">Gestionar Partido</string>
+    <string name="equipo_Local">Equipo Local:</string>
+    <string name="equipoLocal">Equipo Local</string>
+    <string name="marcadorLocal">Marcador Local</string>
+    <string name="anadir_partido">Añadir</string>
+    <string name="equipo_Visitante">Equipo Visitante:</string>
+    <string name="equipoVisitante">Equipo Visitante</string>
+    <string name="marcadorVisitante">Marcador Visitante</string>
+    <string name="guardar_partido">Guardar</string>
+    <string name="informacionPartido">Información Partido</string>
+
+    /*Equipo*/
+    <string name="anadir_equipo">Añadir Equipo</string>
+    <string name="tipo">Tipo</string>
+    <string name="info_equipo">Información Equipo</string>
+
+    /*Entrenamiento*/
+    <string name="anadir_entreno">Añadir</string>
+    <string name="gestion_entrenamiento">Gestionar Entrenamiento</string>
+    <string name="tipo_entreno">Tipo Entrenamiento</string>
+    <string name="descripcion">Descripcion</string>
+    <string name="guardar_entreno">Guardar</string>
+    <string name="info_entreno">Informacion Entrenamiento</string>
+
+    /*Opcion entrenamiento*/
+    <string name="opcion_hecho">Realizado</string>
+
+
+    /*Opciones generales*/
+    <string name="op_modificar">Modificar</string>
+    <string name="op_eliminar">Eliminar</string>
+
+
+</resources>

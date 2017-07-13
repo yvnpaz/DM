@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Calculator</title>
+    <script type="text/javascript">
+        function mostrar()
+        {
+            // Obtenemos el valor por el Texto comentario
+            var porTexto=document.getElementsById( "comment" );
+            var res = document.getElementById( "res" );
+
+            var toret = document.getElementById("res").innerHTML=" \
+            <br>Por Nombre: "+porTexto;
+
+            res.appendChild( toret );
+            WebComment.showToast( res.toString() );
+        }
+    </script>
+</head>
+<body>
+<div class="form-group" onSubmit="javascript:mostrar(); return null;">
+    <label id="commentBox" class="col-lg-2 control-label" style="font-size: 2rem;">Comentar a un jugador</label>
+    <div class="col-lg-10">
+        <textarea class="form-control" rows="3" id="comment" style="margin: 0px -9.84375px 0px 0px; width: 424px; height: 78px;font-size: 1.2rem"></textarea>
+    </div>
+    <!--<button onclick="mostrar()">Mostrar</button>-->
+    <input id="mostra" type="submit" value="Mostrar" />
+</div>
+<div id="res"></div>
+</body>
+</html>

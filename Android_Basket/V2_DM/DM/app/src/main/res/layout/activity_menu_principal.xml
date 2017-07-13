@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_menu_principal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="esei.uvigo.es.dm.View.MenuPrincipal">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:layout_x="1dp" android:layout_y="10dp"
+        android:gravity="center_vertical|center_horizontal">
+
+        <TextView
+            android:id="@+id/AppName"
+            android:layout_width="201dp"
+            android:layout_height="wrap_content"
+            android:layout_x="91dp"
+            android:layout_y="153dp"
+            android:ems="30"
+            android:text="@string/menu_principal"
+            android:textColor="@color/colorPrimary"
+            android:textSize="25sp"
+            android:textStyle="bold" android:typeface="serif"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnEquipo"
+        android:layout_width="203dp"
+        android:layout_height="wrap_content"
+        android:layout_x="114dp"
+        android:layout_y="234dp"
+        android:text="@string/menu_equipo"
+        android:textStyle="bold" android:visibility="visible" android:typeface="serif"
+        android:elevation="0dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="62dp" />
+
+    <Button
+        android:text="@string/mi_equipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_addEquipo"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="@string/menu_partidos"
+        android:layout_width="203dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnPartido"
+        android:textStyle="bold" android:visibility="visible" android:typeface="serif"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/btnEquipo"
+        android:layout_alignLeft="@+id/btnEquipo"
+        android:layout_alignStart="@+id/btnEquipo" />
+
+    <Button
+        android:text="@string/web_info"
+        android:layout_width="203dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btntWeb"
+        android:textStyle="bold" android:visibility="visible" android:typeface="serif"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/btnPartido"
+        android:layout_alignStart="@+id/btnPartido" />
+
+    <Button
+        android:text="@string/menu_entrenamiento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnEntreno"
+        android:layout_above="@+id/btn_addEquipo"
+        android:layout_alignLeft="@+id/btntWebComment"
+        android:layout_alignStart="@+id/btntWebComment"
+        android:layout_marginBottom="24dp"
+        android:layout_alignRight="@+id/btntWebComment"
+        android:layout_alignEnd="@+id/btntWebComment" />
+
+    <Button
+        android:text="@string/web_comment"
+        android:layout_width="203dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btntWebComment"
+        android:textStyle="bold" android:visibility="visible" android:typeface="serif"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_marginBottom="23dp"
+        android:layout_above="@+id/btnEntreno"
+        android:layout_alignLeft="@+id/btntWeb"
+        android:layout_alignStart="@+id/btntWeb" />
+
+</RelativeLayout>

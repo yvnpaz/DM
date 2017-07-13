@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Ganado"
+        android:id="@+id/opGanar" />
+    <item android:title="Perdido"
+        android:id="@+id/opPerdido" />
+    <item android:title="Empate"
+        android:id="@+id/opEmpate" />
+</menu>

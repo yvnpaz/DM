@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/op_modificar" android:id="@+id/opModificar" />
+    <item android:title="@string/op_eliminar"  android:id="@+id/opEliminar" />
+
+</menu>

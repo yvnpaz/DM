@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/myLinearLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/img_fondo2"
+    android:padding="4dp" >
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:layout_x="1dp" android:layout_y="10dp"
+            android:gravity="center_vertical|center_horizontal">
+        <TextView
+            android:id="@+id/AppName"
+            android:layout_width="167dp"
+            android:layout_height="wrap_content"
+            android:layout_x="91dp"
+            android:layout_y="153dp"
+            android:ems="30"
+            android:text="@string/app_name"
+            android:textColor="#ffff8c0d"
+            android:textSize="25sp"
+            android:textStyle="bold" android:typeface="serif"/>
+        <TextView
+            android:id="@+id/authors"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_x="117dp"
+            android:layout_y="343dp"
+            android:text="@string/creadores"
+            android:textColor="#ffff8c0d"
+            android:textSize="16sp"
+            android:textStyle="normal|bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="61dp" android:layout_x="1dp" android:layout_y="456dp"
+            android:gravity="center_vertical|center_horizontal"></LinearLayout>
+
+    <Button
+        android:id="@+id/btnPrincipal"
+        android:layout_width="203dp"
+        android:layout_height="wrap_content"
+        android:layout_x="84dp"
+        android:layout_y="409dp"
+        android:text="@string/menu_principal"
+        android:textStyle="bold" android:visibility="visible" android:typeface="serif"
+        android:elevation="0dp" />
+
+</AbsoluteLayout>

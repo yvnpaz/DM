@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/op_favorito"     android:id="@+id/opFavorito" />
+    <item android:title="@string/op_lesionado"    android:id="@+id/opLesionado" />
+    <item android:title="@string/op_titular"      android:id="@+id/opTitular" />
+
+</menu>
