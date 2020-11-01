@@ -22,7 +22,5 @@ _I need:_
 	2GB of available disk space minimum,
 	4GB Recommended (500 MB for IDE + 1.5 GB for Android SDK and emulator system image)
 	1280 x 800 minimum screen resolution
-
-```
+	
 * [Developer Android Studio](https://developer.android.com/studio)
-```
