@@ -11,3 +11,18 @@
 	<li> SqlLite </li>
 	<li> XML/Dependencies </li>
 </ul>
+
+### Pre-requirements 📋
+
+_I need:_
+
+	IDE Android Studio
+	Microsoft Windows® 7/8/10 (64-bit)
+	4GB RAM minimum, 8 GB RAM recommended
+	2GB of available disk space minimum,
+	4GB Recommended (500 MB for IDE + 1.5 GB for Android SDK and emulator system image)
+	1280 x 800 minimum screen resolution
+
+```
+https://developer.android.com/studio
+```
