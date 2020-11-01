@@ -1,8 +1,10 @@
-<h1>Dispositivos móviles</h1>
+<h1>Mobiles devices</h1>
 
-<h3>Se ha desarrollado una aplicación para gestionar un equipo colectivo de cualquier deporte</h3>
+<h3>Aplication development to manage a collective team at any sport.</h3>
 
-<p>Sistema operativo Android</p>
+## Beginning 🚀
+
+<p>OS Android</p>
 
 <ul>
 	<li> Java </li>
