@@ -24,5 +24,5 @@ _I need:_
 	1280 x 800 minimum screen resolution
 
 ```
-https://developer.android.com/studio
+* [Developer Android Studio](https://developer.android.com/studio)
 ```
